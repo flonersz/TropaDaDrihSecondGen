@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@font-face {
+    font-family: 'futura';
+    src: url(Futura\ Bold.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+}
+
+header > img {
+    padding-left: 20px;
+}
+
+nav > a {
+    padding-right: 20px;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.right {
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left {
+    width: 50vw;
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 340px;
+}
+
+.buttons > a { 
+    padding-left: 40px;
+}
+
+.text-main {
+    font-family: 'futura-bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    padding-left: 40px;
+}
+
+.text-main > h1 {
+    font-size: 130px;
+    font-family: 'futura';
+}
+
+.text-main > p {
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width: 1920px) {
+    .right > img {
+        width: 868px;
+        height: 908px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .text-main > h1 {
+        font-size: 90px;
+    }
+
+    .button-discord {
+        width: 200.8px;
+        height: 47.2px;
+    }
+
+    .button-twitter {
+        width: 193.6px;
+        height: 42.4px;
+    }
+
+    .logo {
+        width: 84px;
+        height: 71px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .right > img {
+        width: 544px;
+        height: 574px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .text-main > h1 {
+        font-size: 90px;
+    }
+
+    .button-discord {
+        width: 200.8px;
+        height: 47.2px;
+    }
+
+    .button-twitter {
+        width: 193.6px;
+        height: 42.4px;
+    }
+
+    .logo {
+        width: 84px;
+        height: 71px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .right > img {
+        width: 444px;
+        height: 474px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .text-main > p {
+        font-size: 15px;
+    }
+
+    .button-discord {
+        width: 200.8px;
+        height: 47.2px;
+    }
+
+    .button-twitter {
+        width: 193.6px;
+        height: 42.4px;
+    }
+}
+
+@media(max-width: 912px) {
+    .right > img {
+        width: 444px;
+        height: 474px;
+        position: absolute;
+        top: 600px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .text-main > p {
+        font-size: 25px;
+        width: 70vw;
+    }
+
+    .button-discord {
+        width: 200.8px;
+        height: 47.2px;
+        position: absolute;
+        top: 650px;
+        left: 35px;
+    }
+
+    .button-twitter {
+        width: 193.6px;
+        height: 42.4px;
+        position: absolute;
+        top: 325px;
+        left: 135px;
+    }
+}
+
+@media(max-width: 540px) {
+    .text-main > h1 {
+        font-size: 40px;
+    }
+
+    .text-main > p {
+        font-size: 15px;
+        width: 70vw;
+    }
+
+    .right > img {
+        width: 222px;
+        height: 237px;
+        position: absolute;
+        top: 350px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .button-discord {
+        width: 100.4px;
+        height: 23.6px;
+        position: absolute;
+        bottom: 340px;
+        left: 42px;
+    }
+
+    .button-twitter {
+        width: 96.8px;
+        height: 21.2px;
+        position: absolute;
+        bottom: 170px;
+        right: 140px;
+    
+    }
+}
+
+@media(max-width: 414px) {
+    .text-main > h1 {
+        font-size: 40px;
+    }
+
+    .text-main > p {
+        font-size: 10px;
+        width: 70vw;
+    }
+
+    .right > img {
+        width: 222px;
+        height: 237px;
+        position: absolute;
+        top: 130px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .button-discord {
+        width: 100.4px;
+        height: 23.6px;
+        position: absolute;
+        top: 400px;
+    }
+
+    .button-twitter {
+        width: 96.8px;
+        height: 21.2px;
+        position: absolute;    
+        top: 200px;
+        left: 80px;
+    }
+
+    .drih-skin {
+        padding-top: 290px;
+    }
+}
+
+@media(max-width: 412px) {
+    .text-main > h1 {
+        font-size: 40px;
+    }
+
+    .text-main > p {
+        font-size: 10px;
+        width: 70vw;
+    }
+
+    .right > img {
+        width: 222px;
+        height: 237px;
+        position: absolute;
+        top: 130px;
+    }
+
+
+    .button-discord {
+        width: 100.4px;
+        height: 23.6px;
+        position: absolute;
+        top: 400px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .button-twitter {
+        width: 96.8px;
+        height: 21.2px;
+        position: absolute;    
+        top: 200px;
+        left: 80px;
+    }
+
+    .drih-skin {
+        padding-top: 290px;
+    }
+}
+
+@media(max-width: 360px) {
+    .text-main > h1 {
+        font-size: 40px;
+    }
+
+    .text-main > p {
+        font-size: 10px;
+        width: 70vw;
+    }
+
+    .right > img {
+        width: 222px;
+        height: 237px;
+        position: absolute;
+        top: 130px;
+    }
+
+
+    .button-discord {
+        width: 100.4px;
+        height: 23.6px;
+        position: absolute;
+        top: 340px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .button-twitter {
+        width: 96.8px;
+        height: 21.2px;
+        position: absolute;    
+        top: 170px;
+    }
+
+    .drih-skin {
+        padding-top: 290px;
+    }
+}
+
+@media(max-width: 280px) {
+    .text-main > h1 {
+        font-size: 30px;
+    }
+
+    .text-main > p {
+        font-size: 10px;
+        width: 70vw;
+    }
+
+    .right > img {
+        width: 222px;
+        height: 237px;
+        top: 80px;
+    }
+
+    .button-discord {
+        width: 80.32px;
+        height: 18.88px;
+        position: absolute;
+        top: 300px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .button-twitter {
+        width: 77.44px;
+        height: 16.96px;
+        position: absolute;
+        top: 150px;
+        left: 70px;
+    }
+}
+
+
+
+
