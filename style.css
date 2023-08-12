@@ -16,6 +16,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    background: #F5D8CE;
 }
 
 header {
@@ -57,6 +58,11 @@ main {
     padding-right: 340px;
 }
 
+.drih-skin {
+    width: 30vw;
+    height: 90vh;
+}
+
 .buttons > a { 
     padding-left: 40px;
 }
@@ -81,11 +87,19 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media(max-width: 1920px) {
-    .right > img {
-        width: 868px;
-        height: 908px;
+@media(max-width: 2560px) {
+    .drih-skin {
+        width: 100vw;
+        height: 100vh;
     }
+
+    .right {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+@media(max-width: 1920px) {
 
     .net-icon {
         width: 22px;
@@ -109,6 +123,16 @@ main {
     .logo {
         width: 84px;
         height: 71px;
+    }
+
+    .drih-skin {
+        width: 30vw;
+        height: 100vh;
+    }
+
+    .right {
+        display: flex;
+        align-items: flex-end;
     }
 }
 
@@ -130,11 +154,13 @@ main {
     }
 } */
 
-@media(max-width: 1280px) {
-    .right > img {
-        width: 544px;
-        height: 574px;
+@media(max-width: 1370px) {
+    .buttons {
+        padding-right: 200px;
     }
+}
+
+@media(max-width: 1280px) {
 
     .net-icon {
         width: 22px;
@@ -143,6 +169,10 @@ main {
 
     .text-main > h1 {
         font-size: 90px;
+    }
+
+    .buttons {
+        padding-left: 200px;
     }
 
     .button-discord {
@@ -162,10 +192,6 @@ main {
 }
 
 @media(max-width: 1024px) {
-    .right > img {
-        width: 444px;
-        height: 474px;
-    }
 
     .net-icon {
         width: 22px;
@@ -188,12 +214,6 @@ main {
 }
 
 @media(max-width: 912px) {
-    .right > img {
-        width: 444px;
-        height: 474px;
-        position: absolute;
-        top: 600px;
-    }
 
     .net-icon {
         width: 22px;
@@ -205,20 +225,26 @@ main {
         width: 70vw;
     }
 
-    .button-discord {
-        width: 200.8px;
-        height: 47.2px;
-        position: absolute;
-        top: 650px;
-        left: 35px;
+    .drih-skin {
+        width: 60vw;
+        height: 50vh;
     }
 
-    .button-twitter {
-        width: 193.6px;
-        height: 42.4px;
-        position: absolute;
-        top: 325px;
-        left: 135px;
+    .right {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+@media(max-width: 768px) {
+    .drih-skin {
+        width: 60vw;
+        height: 60vh;
+    }
+
+    .right {
+        display: flex;
+        align-items: flex-end;
     }
 }
 
@@ -232,13 +258,6 @@ main {
         width: 70vw;
     }
 
-    .right > img {
-        width: 222px;
-        height: 237px;
-        position: absolute;
-        top: 350px;
-    }
-
     .net-icon {
         width: 22px;
         height: 22px;
@@ -247,18 +266,40 @@ main {
     .button-discord {
         width: 100.4px;
         height: 23.6px;
-        position: absolute;
-        bottom: 340px;
-        left: 42px;
     }
 
     .button-twitter {
         width: 96.8px;
         height: 21.2px;
-        position: absolute;
-        bottom: 170px;
-        right: 140px;
+    }
+
     
+
+    .drih-skin {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .right {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+@media(max-width: 425px) {
+    .button-discord {
+        width: 100.4px;
+        height: 23.6px;
+        position: absolute;
+        top: 400px;
+    }
+
+    .button-twitter {
+        width: 96.8px;
+        height: 21.2px;
+        position: absolute;    
+        top: 200px;
+        left: 50px;
     }
 }
 
@@ -272,12 +313,6 @@ main {
         width: 70vw;
     }
 
-    .right > img {
-        width: 222px;
-        height: 237px;
-        position: absolute;
-        top: 130px;
-    }
 
     .net-icon {
         width: 22px;
@@ -296,11 +331,17 @@ main {
         height: 21.2px;
         position: absolute;    
         top: 200px;
-        left: 80px;
+        left: 50px;
     }
 
     .drih-skin {
-        padding-top: 290px;
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .right {
+        display: flex;
+        align-items: flex-end;
     }
 }
 
@@ -314,14 +355,6 @@ main {
         width: 70vw;
     }
 
-    .right > img {
-        width: 222px;
-        height: 237px;
-        position: absolute;
-        top: 130px;
-    }
-
-
     .button-discord {
         width: 100.4px;
         height: 23.6px;
@@ -339,15 +372,22 @@ main {
         height: 21.2px;
         position: absolute;    
         top: 200px;
-        left: 80px;
+        left: 50px;
     }
 
     .drih-skin {
-        padding-top: 290px;
+        width: 60vw;
+        height: 50vh;
     }
+
+    .right {
+        display: flex;
+        align-items: flex-end;
+    }
+
 }
 
-@media(max-width: 360px) {
+@media(max-width: 375px) {
     .text-main > h1 {
         font-size: 40px;
     }
@@ -356,14 +396,6 @@ main {
         font-size: 10px;
         width: 70vw;
     }
-
-    .right > img {
-        width: 222px;
-        height: 237px;
-        position: absolute;
-        top: 130px;
-    }
-
 
     .button-discord {
         width: 100.4px;
@@ -384,8 +416,59 @@ main {
         top: 170px;
     }
 
-    .drih-skin {
-        padding-top: 290px;
+}
+
+@media(max-width: 360px) {
+    .text-main > h1 {
+        font-size: 40px;
+    }
+
+    .text-main > p {
+        font-size: 10px;
+        width: 70vw;
+    }
+
+    .button-discord {
+        width: 100.4px;
+        height: 23.6px;
+        position: absolute;
+        top: 340px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .button-twitter {
+        width: 96.8px;
+        height: 21.2px;
+        position: absolute;    
+        top: 170px;
+    }
+
+}
+
+@media(max-width: 320px) {
+    .button-discord {
+        width: 100.4px;
+        height: 23.6px;
+        position: absolute;
+        top: 340px;
+        left: 180px;
+    }
+
+    .net-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .button-twitter {
+        width: 96.8px;
+        height: 21.2px;
+        position: absolute;    
+        top: 170px;
+        left: 30px;
     }
 }
 
@@ -399,17 +482,13 @@ main {
         width: 70vw;
     }
 
-    .right > img {
-        width: 222px;
-        height: 237px;
-        top: 80px;
-    }
 
     .button-discord {
         width: 80.32px;
         height: 18.88px;
         position: absolute;
         top: 300px;
+        right: 50px;
     }
 
     .net-icon {
@@ -422,8 +501,9 @@ main {
         height: 16.96px;
         position: absolute;
         top: 150px;
-        left: 70px;
+        left: 30px;
     }
+
 }
 
 
